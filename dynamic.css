@@ -1,0 +1,113 @@
+body
+{
+	background-image: url("back.jpg");
+}
+.main
+{
+	background-image: url("");
+	margin: 2%;
+	height: 40%;
+	display: flex;
+	border-radius: 2%;
+
+
+}
+.left{
+	background: pink;
+	width:20%;
+	height: 25%;
+	border-radius: 2%;
+	margin:2%;
+	text-align: center;
+	box-shadow: 1px 1px 1px black;
+}
+.right
+{
+	background:lightgreen;
+	margin: 2%;
+	border-radius: 2%;
+	padding: 2%;
+	box-shadow: 1px 1px 1px black;
+	width:70%;
+	
+
+
+}
+img{
+	width: 40%;
+	height: 40%;
+	margin: 3%;
+	border-radius: 2%;
+}
+@media screen and (max-width: 480px)
+{
+	body
+{
+	background:lightyellow;
+}
+.main
+{
+	background:purple;
+	display: inline-block;
+	margin: 2%;
+	height: 40%;
+	border-radius: 2%;
+	width: 100%;
+}
+.left{
+	background: indigo;
+	width:90%;
+	height: 35%;
+	border-radius: 2%;
+	margin:5%;
+	text-align: center;
+	color: white;
+	box-shadow: 1px 1px 1px black;
+}
+.right
+{
+	background: #007f80;
+	margin: 5%;
+	border-radius: 2%;
+	padding: 2%;
+	box-shadow: 1px 1px 1px black;
+	width:87%;
+}
+}
+@media screen and (min-width: 481px) and (max-width:720px)
+{
+body
+{
+	background:yellow;
+}
+.main
+{
+	background:lightblue;
+	display: flex;
+	margin: 2%;
+	height: 40%;
+	border-radius: 2%;
+	width: 100%;
+}
+.left{
+	background: orange;
+	width:90%;
+	height: 35%;
+	border-radius: 2%;
+	margin:2%;
+	text-align: center;
+	color: black;
+	box-shadow: 1px 1px 1px black;
+}
+.right
+{
+	background:violet;
+	margin: 2%;
+	border-radius: 2%;
+	padding: 2%;
+	box-shadow: 1px 1px 1px black;
+	width:87%;
+}
+
+
+}

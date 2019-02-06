@@ -1,0 +1,50 @@
+{
+	"profile":{
+		"img":"img.png",
+		"name":"Vasanth kumar.P",
+		"roll":"17A31A0549",
+		"institution":"Pragati Engineering College",
+		"place":"Visakhapatnam"
+	},
+	"career":
+	{
+      "info":"To work in an environment where I can utilize my own skills and knowledge"
+	},
+	"education":[
+		{
+			"s":"1",
+			"degree":"B-tech",
+			"institution":"Pragati Engineering College",
+			"percentage":"90%",
+			"yop":"2021"
+		},
+		{
+			"s":"2",
+			"degree":"Inter",
+			"institution":"Narayana Junior College",
+			"percentage":"98%",
+			"yop":"2017"
+		},
+		{
+			"s":"3",
+			"degree":"SSC",
+			"institution":"Netaji Public School",
+			"percentage":"97%",
+			"yop":"2015"
+		}
+	],
+	"languages":[
+		{
+			"lang":"Telugu"
+		},
+		{
+			"lang":"English"
+		},
+		{
+		    "lang":"Hindi"
+     	},
+     	{
+     		"lang":"Kannada"
+     	}
+	]
+}

@@ -1,0 +1,17 @@
+function getfile(file,callback)
+{
+	var htp=new XMLHttpRequest();
+	htp.overrideMimeType("application/json");
+	htp.open('GET',file,true);
+	htp.onreadystatechange=function()
+	{
+		if(htp.readyState===4 && htp.status=="200"){
+			callback(htp.responseText);
+		}
+	}
+	htp.send(null);
+}
+getfile("dynamic.json",function(text){
+	let data=JSON.parse(text);
+	console.log(data);
+})

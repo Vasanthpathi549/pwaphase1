@@ -1,0 +1,56 @@
+body
+{
+   background: aqua;
+}
+#maindiv
+{
+	background: pink;
+	display: flex;
+	justify-content: space-around;
+	margin: 10%;
+	border-radius: 5%;
+	box-shadow: 1px 1px 1px 1px blue;
+}
+.subdiv
+{
+	margin: 3%;
+	background: bisque;
+	text-align: center;
+	border-radius: 5%;
+	width: 55%;
+	height: 55%;
+	box-shadow: 4px 4px 4px 0px black;
+}
+img
+{
+	margin: 3%;
+	border-radius: 4%;
+	width: 45%;
+	height:40%;
+}
+/*mobile view*/
+@media screen and (max-width:480px)
+{
+	body{
+		background: #25DA72;
+	}
+	#maindiv
+{
+	background: #886BBD;
+	display: inline-block;
+	justify-content: space-around;
+	margin: 10%;
+	border-radius: 5%;
+	box-shadow: 1px 1px 1px 1px blue;
+}
+.subdiv
+{
+	margin: 3%;
+	background: bisque;
+	text-align: center;
+	border-radius: 5%;
+	width: 55%;
+	height: 55%;
+	box-shadow: 4px 4px 4px 0px black;
+}
+}
